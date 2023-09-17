@@ -21,7 +21,7 @@ struct ContentView: View {
                         Text("Dashboard")
                     }
                 }
-                                     
+            
             FoodScreen()
                 .tag(1)
                 .tabItem {
@@ -30,7 +30,7 @@ struct ContentView: View {
                         Text("Food")
                     }
                 }
-                
+            
             ModalScreen()
                 .tag(2)
                 .tabItem {
